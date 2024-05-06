@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house" title="Home"></i>
+                    <a href="#" class="hide1">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+                    <a href="#" class="hide1">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="" title="Expand Your Library">
+                        <a href="#" class="hide1">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus" title="Create Your Playlist"></i>
+                        <i class="fa-solid fa-arrow-right hide"></i>
+                    </div>
+                </div>
+                
+                <div class="lib-box hide1">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box box2">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" alt="" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02663d1b86b1cc7b3f59ba0248" class="card-img">
+                    <p class="card-title">Kollagottey</p>
+                    <p class="card-info">Anirudh Ravichander</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02a0ad08ec2b8a3f098f9cae1b" class="card-img">
+                    <p class="card-title">Ney Verey &lpar;From...</p>
+                    <p class="card-info">Karthik, Shreyas Puranak, Anantha Sreeram</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0264d393b18a181297c6d85a03" class="card-img">
+                    <p class="card-title">Ammayo</p>
+                    <p class="card-info">Mohith Rahamanic, Nanda Kishore</p>
+                 </div>
+            </div>
+
+            <h2>To get you started</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://seed-mix-image.spotifycdn.com/v6/img/artist/4zCH9qm4R2DADamUHMCa6O/en/default" class="card-img">
+                    <p class="card-title">Anirudh Ravichander Mix</p>
+                    <p class="card-info">Sivakarthikeyan, Thalapathy Vijay, Dhanush...</p>
+                </div>
+                <div class="card">
+                    <img src="https://seed-mix-image.spotifycdn.com/v6/img/artist/0LSPREIgGMZXCuKVel7LVD/en/default" class="card-img">
+                    <p class="card-title">Karthik Mix</p>
+                    <p class="card-info">Harris Raghavan, Harris Jayaraj and...</p>
+                 </div>
+            </div>
+
+            <h2>Try Something else</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000022dcf0a7d9d7686e60f8e3eb0" class="card-img">
+                    <p class="card-title">Hot Hits Hindi</p>
+                    <p class="card-info">Hottest Hindi music serverd here. Cover-...</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002e9124f623f4bf5f90b393aa3" class="card-img">
+                    <p class="card-title">Bollywood Dance Music</p>
+                    <p class="card-info">Party-ready, the biggest Bollywood..</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002344bde7ee069f45b6da72653" class="card-img">
+                    <p class="card-title">Trending Now Telugu</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000028ac3fd05171bedaa40bc970a" class="card-img">
+                    <p class="card-title">All About 00's Telugu</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+            </div>
+
+            <h2>Albums</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e026ff0ae5db5266feff0d5dbb9" class="card-img">
+                    <p class="card-title">Orange</p>
+                    <p class="card-info">2010 &#x2022; Harris Jayaraj</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02663d1b86b1cc7b3f59ba0248" class="card-img">
+                    <p class="card-title">Remo &lpar;Telugu ..</p>
+                    <p class="card-info">2016 &#x2022; Anirudh Ravichander</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02b024965e82abb72c5e801db9" class="card-img">
+                    <p class="card-title">Poolamme Pilla</p>
+                    <p class="card-info">2024 &#x2022; Gowra Hari, Kasarla Shyam</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e027b63faddb002915fbaeea776" class="card-img">
+                    <p class="card-title">MAD</p>
+                    <p class="card-info">2023 &#x2022; Bheems Ceciroleo</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02ab23f0fba2fe563bc5544126" class="card-img">
+                    <p class="card-title">Hi Nanna</p>
+                    <p class="card-info">2023 &#x2022; Hesham Abdul Wahab</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f046158ab9216fa6c67a6344" class="card-img">
+                    <p class="card-title">Pushpa - The Rise</p>
+                    <p class="card-info">2021 &#x2022; Devi Sri Prasad</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0251bfc89891715f271de71434" class="card-img">
+                    <p class="card-title">Geetha Govindham</p>
+                    <p class="card-info">2018 &#x2022; Gopi Sundar</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0274a948a8c2affb02b25e9b71" class="card-img">
+                    <p class="card-title">Temper</p>
+                    <p class="card-info">2015 &#x2022; Anup Rubens</p>
+                </div>
+            </div>
+
+            <h2>PlayLists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002d33b127cbb179883b390a19e" class="card-img">
+                    <p class="card-title">Sivakarthikeyan Hits</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002608b51492adab186a4be3f0a" class="card-img">
+                    <p class="card-title">Pawan Kalyan Hits</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002c4caf658cfd8685e86d1d0e3" class="card-img">
+                    <p class="card-title">Ram Charan Hits</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f0000000274f2d3685bb53bd5a38e44e9" class="card-img">
+                    <p class="card-title">Allu Arjun Hits</p>
+                    <p class="card-info">By Spotify</p>
+                 </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        
+        <div class="music-player">
+            <div class="album">
+                <img src="https://i.scdn.co/image/ab67616d00001e02663d1b86b1cc7b3f59ba0248" class="album-img">
+                <div class="alb-info">
+                    <p class="title">Kollagottey</p>
+                    <p class="info">Anirudh Ravichander</p>
+                </div>
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="player hide3">
+                <div class="player-icons">
+                    <img src="./assets/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="progress-bar">
+                    <span class="curr" style="font-size: 0.75rem;">00:00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span class="tot" style="font-size: 0.75rem;">4:11</span>
+                </div>
+            </div>
+            <div class="controls hide3">
+                <img src="./assets/controls_icon1.png" alt="" style="height: 2rem; width: 2rem">
+                <img src="./assets/controls_icon2.png" alt="" style="height: 2rem; width: 2rem">
+                <img src="./assets/controls_icon3.png" alt="" style="height: 1.5rem; width: 1.5rem">
+                <img src="./assets/controls_icon4.png" alt="" style="height: 1rem; width: 1rem">
+                <img src="./assets/controls_icon5.png" alt="" style="height: 2rem; width: 2rem">
+                <input type="range" name="" id="" min="0" max="100" class="progress hide3" style="width: fit-content;" value="100">
+                <img src="./assets/album_icon1.png" alt="" style="height: 1.5rem; width: 1.5rem">
+                <img src="./assets/album_icon2.png" alt="" style="height: 2rem; width: 2rem">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
