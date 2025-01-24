@@ -28,6 +28,10 @@ body {
     padding: 0 0.5rem 0 0.75rem;
 }
 
+.main-content::-webkit-scrollbar {
+    display: none;
+}
+
 .music-player {
     background-color: black;
     position: fixed;
